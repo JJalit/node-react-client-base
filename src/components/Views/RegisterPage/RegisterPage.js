@@ -73,9 +73,7 @@ function RegisterPage(props) {
           onChange={onConfirmPasswordHandler}
         />
         <br />
-        <button type="submit" onChange={onSubmitHandler}>
-          회원가입
-        </button>
+        <button type="submit">회원가입</button>
       </form>
     </div>
   );
